@@ -13,51 +13,53 @@ h1 {
 }
 
 body {
-
-	
-	background: lightgrey;
+	background: #fed43a;
   font-size: 20px;
 
 }
+/*MY NAME*/
 .aj{
 	color: black;
 	font-size: 50px;
 	font-family: 'Bebas Neue', cursive;
 }
+/*TEXT UNDER MY NAME*/
 .full{
 	color: black;
 	font-style: italic;
 	font-size: 20px;
+	text-align: center;
 }
-
+/*About me description*/
 .web{
-
 	color: black;
-	font-size: 50px;
-
-	
-	
+	font-size: 50px;		
+}
+.description{
+	font-size: 15px;
+	text-align: center;
 }
 .cebu{
-	color: #1d755f;
-	font-style: italic;
+	color: #52c792;
+	font-family: 'Permanent Marker', cursive;
 	font-weight: bold;
+
 }
 .stack{
-	color: #e8e597;
+	color: #fed43a;
 	font-style: italic;
 	font-weight: bold;
 }
 
 .sales{
-	color: #e8e597;
+	color: #fed43a;
 	font-style: italic;
 	font-weight: bold;
 
 }
 .service{
-	color: #e8e597;
-	font-style: italic;
+	color: #fed43a;
+	font-style:#fed43a italic;
 	font-weight: bold;
 
 }
@@ -67,15 +69,69 @@ body {
 	padding-bottom: 10px;
 
 }
-.description{
-	font-size: 15px;
-}
 
+
+/*WORK EXPERIENCE HEADING*/
 .experience{
 	padding-top: 100px;
 	padding-bottom: 10px;
 	font-weight: bold;
 	font-size: 60px;
 	font-family: 'Bebas Neue', cursive;
+	text-align: 	center;
 
+}
+/*WORK EXPERIENCE BACKGROUND*/
+.background{
+	background: #333;
+}
+
+.card-body{
+	color: #fed43a;
+	font-size: 15px;
+}
+
+/*freediving photos heading*/
+.photos{
+	padding-top: 100px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: 	center;
+}
+/*TOOLS I USE HEADIING*/
+.tools{
+	padding-top: 100px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: 	center;
+}
+.card-title{
+	color: #fed43a ;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+}
+
+/*CONTACT HEADING*/
+.contact-title{
+	padding-top: 50px;
+	padding-bottom: 0;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: 	center;
+}
+
+.form-group{
+	text-align: center;
+	color:#fed43a ;
+}
+/*BUTTON BACKGROUND*/
+.btn{
+	background:#fed43a ;
 }
