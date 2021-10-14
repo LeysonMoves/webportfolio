@@ -17,12 +17,19 @@
 	   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 	   <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 
+	   <!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-	
-		<!-- Navbar Section Start-->
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		
+	<!-- Navbar Section Start-->
+	  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 	  <a class="company navbar-brand" href="#top">LM Web Solutions</a>
+	  <a href="https://www.facebook.com/LeysonMoves//" target="_blank" class="fa fa-facebook"></a>
+	  <a href="https://www.linkedin.com/feed/" target="_blank" class="fa fa-linkedin"></a>
+	  <a href="https://www.instagram.com/aj_leyson/" target="_blank" class="fa fa-instagram"></a>
+
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -47,40 +54,44 @@
 
 	<!-- Navbar Section End -->
 
-<div class="container-fluid">
+
 	<!-- About Me Section Start-->
-		<div class="p-3 d-md-flex justify-content-around" id="aboutme">
-			<div>
-				<img class="p-3 mt-5 mx-auto d-block rounded-circle " src="./images/pp1.jpg" width="250" class="img-fluid">
-				<h1 class="aj">AJ Leyson</h1>
-				<h3 class="full">Full-Stack Web Developer</h3>
-				<p class="description">I am a full stack web developer. I like to work and travel at the same time. I am also a freediver, check out some of my photos below.</p>
-			</div>
-			<div class="web p-4 mt-5 col-md-8 ">
-				Web developer from <span class="cebu">Cebu City, Philippines.</span> Let's make your business look better online!
-			</div>
-		</div>
+
+
+	<div class="container-fluid text-center p-4" id="aboutme">   
+            <div class="row mt-3 mb-4 p-4" >
+                <div class="col-12 col-md-6 order-1 order-md-1 ">
+                  <div> 
+					<h1 class="aj" >AJ Leyson</h1>
+					<h3 class="full">Electrical Engineer | Full-Stack Web Developer</h3>
+					<p class="description">I am an Elecrtrical Engineer by profession but currently studying to become a full stack web developer. I love to travel and work at the same time. I like outdoor activities like freediving, check out my photos below</p>
+				  </div>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2">
+                    <img class=" pic rounded-circle" src="./images/pp1.jpg" width="250" class="m-auto img-fluid" />
+                </div>       
+            </div>		
 	<!-- About Me Section End-->
 		
 
 		<!-- FREEDIVING SECTION -->
 		<!-- I used Card image and flexbox (creating space between elements) -->
-		<h2 class="photos p-0">Freediving Photos</h2>
-		<div class=" p-3 d-md-flex justify-content-around">
+		<h2 class="photos ">Freediving Photos</h2>
+		<div class=" p-1 d-md-flex justify-content-around">
 			<!-- image 1 -->
-			<div class="p-3 col-md-2">
+			<div class="p-1 col-md-2">
 				 <img class="rounded card-img-top" src="./images/p5.jpg" alt="Card image cap"> 	
 			</div>
 			<!-- image 2 -->
-			<div class="p-3 col-md-2 ">
+			<div class="p-1 col-md-2 ">
 				 <img class="rounded card-img-top" src="./images/p2.JPG" alt="Card image cap"> 	
 			</div>
 			<!-- image 3 -->
-			<div class="p-3  col-md-2 ">
+			<div class="p-1  col-md-2 ">
 				 <img class="rounded card-img-top" src="./images/p3.JPG" alt="Card image cap"> 	
 			</div>
 			<!-- image 4 -->
-			<div class="p-3  col-md-2 ">
+			<div class="p-1  col-md-2 ">
 				 <img class="rounded card-img-top" src="./images/p4.JPG" alt="Card image cap"> 	
 			</div>
 		</div>
@@ -91,22 +102,22 @@
 	<!-- WORK EXPERIENCE SECTION START -->
 
 		<h2 class="experience" id="work">Work Experience</h2>
-		<div class=" background text-light pt-5 d-md-flex justify-content-around text-center" >
-			<div class="p-3 bg-transparent col-md-2">
+		<div class=" bg-dark text-center text-light pt-0 d-md-flex" >
+			<div class="p-3 bg-transparent col-md-4">
 				<div>
 					<h2 class="stack">Full Stack Web Developer</h2>
 					<p class="work-description">I am now training with zuitt to become a full stack web developer in the future. I am very excited to explore more about web development. </p>
 				</div>
 			</div>
 
-			<div class="p-3 bg-transparent col-md-2">
+			<div class="p-3 bg-transparent col-md-4">
 				<div>
 					<h2 class="sales">Technical Sales Engineer</h2>
 					<p class="work-description">I was technical sales engineer in my previous job. I provide after sales technical support, prepare and submit quotations, conduct business meetings with existing and new clients etc.</p>
 				</div>
 			</div>
 
-			<div class="p-3 bg-transparent col-md-2">
+			<div class="p-3 bg-transparent col-md-4">
 				<div>
 					<h2 class="service">Service Engineer</h2>
 					<p class="work-description">I was a service engineer in my first job. We install machines that are used in the garments industry to cut and plot the garment patterns. We also provide technical support and conduct maintenance with our machines.</p>
@@ -137,12 +148,12 @@
 			</div>
 
 			<div class="p-3 bg-dark col-md-2 card-title">
-				GITLAB
+				GIT
 				 <img class="card-img-top" src="./images/logo-git.png" alt="Card image cap"> 	
 			</div>
 
 			<div class="p-3 bg-dark col-md-2 card-title">
-				GITBASH
+				GITLAB
 				 <img class="card-img-top" src="./images/logo-gitlab-ci-cd.png" alt="Card image cap"> 	
 			</div>
 	</div>
@@ -199,7 +210,6 @@
 			        </div>
 			        <div class="modal-footer">
 			          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-			          <button type="button" class="btn btn-dark">Save changes</button>
 			        </div>
 			      </div>
 			    </div>
@@ -208,7 +218,9 @@
 			</form>
 		</div>
 	<!-- END OF CONTACT FORM -->
-
+	<div class="text-center p-1">
+	
+	</div>
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

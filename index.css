@@ -7,27 +7,48 @@
 
 body {
 	background: #fed43a;
-  font-size: 20px;
-
 }
 .company{
 	font-family: 'ZCOOL KuaiLe', cursive;
-	font-size: 25px;
+	font-size: 15px;
 }
 .nav-link{
 	color: blue
 }
-.welcome{
-	font-size: 70px;
-	text-align: justify-center;
+.fa-facebook {
+ padding: 5px;
+  color: white;
+}
+
+.fa-linkedin {
+  padding: 5px;
+  color: white;
+}
+
+.fa-instagram {
+ padding: 5px;
+  color: white;
+  }
+.web{
+	font-size: 2px;
+	text-align:center;
 }
 /*MY NAME*/
 .aj{
 	color: black;
+	padding-top: 50px;
 	font-size: 50px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
 }
+
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;.
+
+}
+
 /*FULL STACK TEXT UNDER MY NAME*/
 .full{
 	color: black;
@@ -43,6 +64,7 @@ body {
 .description{
 	font-size: 15px;
 	text-align: center;
+	padding-top: 15px;
 }
 /*CEBU PHILIPPINES FONT*/
 .cebu{
@@ -85,10 +107,6 @@ body {
 	font-size: 20px;
 	text-align:center; 
 }
-/*WORK EXPERIENCE BACKGROUND*/
-.background{
-	background: #333;
-}
 
 .card-body{
 	color: #fed43a;
@@ -97,8 +115,7 @@ body {
 
 /*freediving photos heading*/
 .photos{
-	padding-top: 100px;
-	padding-bottom: 0px;
+	padding-top: 50px;
 	font-weight: bold;
 	font-size: 60px;
 	font-family: 'Bebas Neue', cursive;
@@ -140,3 +157,4 @@ body {
 	background:#fed43a ;
 	color: black;
 }
+
