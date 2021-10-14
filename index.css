@@ -11,8 +11,8 @@ body {
 
 }
 .company{
-	font-style: italic;
-	font-weight: bold;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size: 25px;
 }
 .nav-link{
 	color: blue
