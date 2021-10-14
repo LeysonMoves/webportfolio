@@ -5,25 +5,30 @@
 	font-family: 'Rubik', sans-serif;.	
 }
 
-
-h1 {
-	
-  color: darkgray;
-  text-align: center;
-}
-
 body {
 	background: #fed43a;
   font-size: 20px;
 
+}
+.company{
+	font-style: italic;
+	font-weight: bold;
+}
+.nav-link{
+	color: blue
+}
+.welcome{
+	font-size: 70px;
+	text-align: justify-center;
 }
 /*MY NAME*/
 .aj{
 	color: black;
 	font-size: 50px;
 	font-family: 'Bebas Neue', cursive;
+	text-align: center;
 }
-/*TEXT UNDER MY NAME*/
+/*FULL STACK TEXT UNDER MY NAME*/
 .full{
 	color: black;
 	font-style: italic;
@@ -39,34 +44,32 @@ body {
 	font-size: 15px;
 	text-align: center;
 }
+/*CEBU PHILIPPINES FONT*/
 .cebu{
-	color: #52c792;
+	color: #073982;
 	font-family: 'Permanent Marker', cursive;
 	font-weight: bold;
 
 }
+/*FULL STACK WEB DEVELOPER TITLE*/
 .stack{
 	color: #fed43a;
 	font-style: italic;
 	font-weight: bold;
 }
 
+/*TECHNICAL SALES ENGINEER TITLE*/
 .sales{
 	color: #fed43a;
 	font-style: italic;
 	font-weight: bold;
 
 }
+/*SERVICE ENGINEER TITLE*/
 .service{
 	color: #fed43a;
 	font-style:#fed43a italic;
 	font-weight: bold;
-
-}
-
-.work{
-	padding-top: 100px;
-	padding-bottom: 10px;
 
 }
 
@@ -134,4 +137,5 @@ body {
 /*BUTTON BACKGROUND*/
 .btn{
 	background:#fed43a ;
+	color: black;
 }

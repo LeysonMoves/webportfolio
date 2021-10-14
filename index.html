@@ -21,7 +21,7 @@
 	
 		<!-- Navbar Section Start-->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-	  <a class="navbar-brand" href="#top">LM Web Solutions</a>
+	  <a class="company navbar-brand" href="#top">LM Web Solutions</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -30,14 +30,14 @@
 	      <li class="nav-item active">
 	        <a class="nav-link" href="#aboutme">About Me <span class="sr-only">(current)</span></a>
 	      </li>
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#work">Work Experience</a>
 	      </li>
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#tools">Tools</a>
 	      </li>
 
-	      <li class="nav-item">
+	      <li class="nav-item active">
 	        <a class="nav-link" href="#contact">Contact Me</a> 
 	      </li>
 	    </ul>
@@ -45,7 +45,8 @@
 	</nav>
 
 	<!-- Navbar Section End -->
-	
+
+<div>
 
 	<!-- About Me Section Start-->
 		<div class="p-3 d-md-flex justify-content-around" id="aboutme">
@@ -65,31 +66,29 @@
 		<!-- FREEDIVING SECTION -->
 
 		<h2 class="photos p-0">Freediving Photos</h2>
-	<div class=" p-3 d-md-flex text-center justify-content-around">
-
-			<div class="p-3 bg-dark col-md-2">
-				 <img class="card-img-top" src="./images/p5.JPG" alt="Card image cap"> 	
+		<div class=" p-3 d-md-flex justify-content-around">
+			<!-- image 1 -->
+			<div class="p-3 col-md-2">
+				 <img class="rounded card-img-top" src="./images/p5.JPG" alt="Card image cap"> 	
 			</div>
-
-			<div class="p-3 bg-dark col-md-2 ">
-				 <img class="card-img-top" src="./images/p2.JPG" alt="Card image cap"> 	
+			<!-- image 2 -->
+			<div class="p-3 col-md-2 ">
+				 <img class="rounded card-img-top" src="./images/p2.JPG" alt="Card image cap"> 	
 			</div>
-
-
-			<div class="p-3 bg-dark col-md-2 ">
-				 <img class="card-img-top" src="./images/p3.JPG" alt="Card image cap"> 	
+			<!-- image 3 -->
+			<div class="p-3  col-md-2 ">
+				 <img class="rounded card-img-top" src="./images/p3.JPG" alt="Card image cap"> 	
 			</div>
-
-			<div class="p-3 bg-dark col-md-2 ">
-				 <img class="card-img-top" src="./images/p4.JPG" alt="Card image cap"> 	
+			<!-- image 4 -->
+			<div class="p-3  col-md-2 ">
+				 <img class="rounded card-img-top" src="./images/p4.JPG" alt="Card image cap"> 	
 			</div>
-
-			
-	</div>
+		</div>
 		
-		<!-- END OF FREEDIVING SECTION -->
+	<!-- END OF FREEDIVING SECTION -->
 
 
+	<!-- WORK EXPERIENCE SECTION START -->
 
 		<h2 class="experience" id="work">Work Experience</h2>
 		<div class=" background text-light pt-5 d-md-flex justify-content-around text-center" >
@@ -115,14 +114,12 @@
 			</div>		
 	</div>
 
+	<!-- WORK EXPERIENCE SECTION END-->
+
 	<!-- TOOLS SECTIONS -->
 
-
-
-
-	<h2 class="tools" id="tools">Tools I Use</h2>
-	<div class=" p-3 d-md-flex text-center justify-content-around">
-
+		<h2 class="tools" id="tools">Tools I Use</h2>
+		<div class=" p-3 d-md-flex text-center justify-content-around">
 			<div class="p-3 bg-dark col-md-2 card-title ">
 				HMTL
 				 <img class="card-img-top" src="./images/logo-html5.png" alt="Card image cap"> 	
@@ -147,11 +144,10 @@
 				GITBASH
 				 <img class="card-img-top" src="./images/logo-gitlab-ci-cd.png" alt="Card image cap"> 	
 			</div>
-	
 	</div>
 
 
-			<!-- CONTACT FORM -->		
+	<!-- CONTACT FORM -->		
 		<div class="contact p-5 text-dark text-center " id="contact">
 				
 			<h2 class="contact-title">Contact Form</h2>
@@ -186,7 +182,7 @@
 
 			  <button type="button" class="btn btn-dark text-dark m-3" data-toggle="modal" data-target="#exampleModal">Send Email</button>
 
-			  <!-- Modal -->
+			  <!-- Modal START -->
 			  <div class=" text-dark modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			    <div class="modal-dialog" role="document">
 			      <div class="modal-content">
@@ -209,13 +205,13 @@
 			  <!-- END OF MODAL -->
 			</form>
 		</div>
-		<!-- END OF CONTACT FORM -->
+	<!-- END OF CONTACT FORM -->
 
 
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-
+</div>			
 </body>
 </html>
