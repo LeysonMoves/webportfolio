@@ -70,9 +70,7 @@ body {
 	color: #fed43a;
 	font-style:#fed43a italic;
 	font-weight: bold;
-
 }
-
 
 /*WORK EXPERIENCE HEADING*/
 .experience{
@@ -82,7 +80,10 @@ body {
 	font-size: 60px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: 	center;
-
+}
+.work-description{
+	font-size: 20px;
+	text-align:center; 
 }
 /*WORK EXPERIENCE BACKGROUND*/
 .background{
