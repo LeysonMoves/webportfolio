@@ -4,9 +4,35 @@
 	padding: 0;
 	font-family: 'Rubik', sans-serif;.	
 }
-
+html {
+    	  scroll-behavior: smooth;
+    	}
 body {
-	background: #fed43a;
+	background: black;
+	color: 	white;
+
+
+	}
+.jumbotron{
+	background-color: black;
+ height: 100vh;
+ display: flex;
+ text-align: 	center;
+ flex-direction: column;
+ justify-content: center;
+ background-size: cover; 
+ margin-bottom: 20px;
+ color: 	#fed43a;
+
+}
+
+.electrical{
+	color: 	white;
+
+}
+.welcome{
+		font-family: 'Orbitron', sans-serif;
+		letter-spacing: 5px;
 }
 .company{
 	font-family: 'ZCOOL KuaiLe', cursive;
@@ -35,11 +61,11 @@ body {
 }
 /*MY NAME*/
 .aj{
-	color: black;
 	padding-top: 50px;
 	font-size: 50px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
+	color: 	#fed43a;
 }
 
 .pic{
@@ -50,48 +76,39 @@ body {
 }
 
 /*FULL STACK TEXT UNDER MY NAME*/
-.full{
-	color: black;
-	font-style: italic;
-	font-size: 20px;
-	text-align: center;
+
 }
 /*About me description*/
-.web{
-	color: black;
-	font-size: 50px;		
 }
-.description{
-	font-size: 15px;
+.me{
+	font-size: 100px;
 	text-align: center;
 	padding-top: 15px;
 }
-/*CEBU PHILIPPINES FONT*/
-.cebu{
-	color: #073982;
-	font-family: 'Permanent Marker', cursive;
-	font-weight: bold;
-
-}
 /*FULL STACK WEB DEVELOPER TITLE*/
-.stack{
+
+.full{	
 	color: #fed43a;
-	font-style: italic;
-	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
 }
+
+.work-description{
+	font-size: 20px;
+	text-align:center; 
+	color: 	white;
+}
+
 
 /*TECHNICAL SALES ENGINEER TITLE*/
 .sales{
 	color: #fed43a;
-	font-style: italic;
-	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
 
 }
 /*SERVICE ENGINEER TITLE*/
 .service{
 	color: #fed43a;
-	font-style:#fed43a italic;
-	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
 }
 
 /*WORK EXPERIENCE HEADING*/
@@ -102,12 +119,8 @@ body {
 	font-size: 60px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: 	center;
+	color: 	#fed43a;
 }
-.work-description{
-	font-size: 20px;
-	text-align:center; 
-}
-
 .card-body{
 	color: #fed43a;
 	font-size: 15px;
@@ -120,6 +133,7 @@ body {
 	font-size: 60px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: 	center;
+	color: 	#fed43a;
 }
 /*TOOLS I USE HEADIING*/
 .tools{
@@ -129,12 +143,13 @@ body {
 	font-size: 60px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: 	center;
+	color: 	#fed43a;
 }
 .card-title{
-	color: #fed43a ;
+	color: white ;
 	font-weight: normal;
 	font-size: 20px;
-	font-family: 'Bebas Neue', cursive;
+	font-family: 'Orbitron', sans-serif;
 	text-align: center;
 }
 
@@ -146,6 +161,7 @@ body {
 	font-size: 60px;
 	font-family: 'Bebas Neue', cursive;
 	text-align: 	center;
+	color: #fed43a	;
 }
 
 .form-group{
